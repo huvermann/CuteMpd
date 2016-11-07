@@ -91,7 +91,7 @@ class MainWindow(QtGui.QMainWindow, UI.MainWindowUI.Ui_MainWindow):
 
     def onBtnSwitchoffClicked(self):
         """Button clicked handler."""
-        print("Button clicked.")
+        self.close()
         pass
 
     def onBtnPrevClicked(self):

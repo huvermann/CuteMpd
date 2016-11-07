@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="/images">
+    <file alias='Ok'>..\images/Ok.png</file>
+    <file alias='music'>..\images/Music.png</file>
+    <file alias='turnoff'>..\images/Turn off.png</file>
+    <file alias='info'>..\images/Info.png</file>
+    <file alias='play'>..\images/Play button.png</file>
+    <file alias='pause'>..\images/Play button.png</file>
+    <file alias='left'>..\images/Left.png</file>
+    <file alias='stopButton'>..\images/Stop button.png</file>
+    <file alias='stop'>..\images/Stop button.png</file>
+    <file alias='first'>..\images/First.png</file>
+    <file alias='last'>..\images/Last.png</file>
+  </qresource>
+  <qresource prefix="/icons">
+    <file alias='Add'>..\Icons\Add.png</file>
+    <file alias='Back-button'>..\Icons\Back-button.png</file>
+    <file alias='Backward'>..\Icons\Backward.png</file>
+    <file alias='Forward'>..\Icons\Forward.png</file>
+    <file alias='Stop button'>..\Icons\Stop button.png</file>
+    <file alias='Close'>..\Icons\Close.png</file>
+    <file alias='Create'>..\Icons\Create.png</file>
+    <file alias='Exit'>..\Icons\Exit.png</file>
+    <file alias='Go'>..\Icons\Go.png</file>
+    <file alias='Last'>..\Icons\Last.png</file>
+    <file alias='Remove'>..\Icons\Remove.png</file>
+    <file alias='Turn off'>..\Icons\Turn off.png</file>
+    <file alias='Music'>..\Icons\Music.png</file>
+    <file alias='Radioactive'>..\Icons\Radioactive.png</file>
+    <file alias='Options'>..\Icons\Options.png</file>
+  </qresource>
+  <qresource prefix="/styles">
+    <file alias='stylesheet'>Stylesheet.qss</file>
+  </qresource>
+</RCC>

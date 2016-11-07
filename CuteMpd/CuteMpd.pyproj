@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3d2e58cb-4896-4409-8fba-3531d7a49ddd</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>CuteMpd.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CuteMpd</Name>
+    <RootNamespace>CuteMpd</RootNamespace>
+    <InterpreterId>{71da1d1b-a9ee-4554-a4c0-a147e317ca4f}</InterpreterId>
+    <InterpreterVersion>3.4</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CuteMpd.py" />
+    <Compile Include="Models\PlayListsModel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\SongDetails.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\SongListModel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="resources_rc.py" />
+    <Compile Include="Scripts\ScanMusicDir.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\MainWindowUI.py" />
+    <Compile Include="UI\SettingsUI.py" />
+    <Compile Include="UI\SongDetailsUI.py" />
+    <Compile Include="Utils\Client.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Configuration.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Observer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ServiceLocator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\compileGui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\CuteMpdMainWindowUI.py" />
+    <Compile Include="UI\SelectPlayListDialogUI.py" />
+    <Compile Include="UI\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Viewmodels\MpdViewModel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\MainWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SelectPlaylistDialog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SettingsDialog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SongDetails.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Viewmodels\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\CuteMpdMainWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env34_64\">
+      <Id>{71da1d1b-a9ee-4554-a4c0-a147e317ca4f}</Id>
+      <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
+      <Version>3.4</Version>
+      <Description>env34_64 (Python 64-bit 3.4)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>Amd64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cutempdconfig.ini" />
+    <Content Include="Icons\Add.png" />
+    <Content Include="Icons\Back-button.png" />
+    <Content Include="Icons\Backward.png" />
+    <Content Include="Icons\Close.png" />
+    <Content Include="Icons\Create.png" />
+    <Content Include="Icons\Exit.png" />
+    <Content Include="Icons\Forward.png" />
+    <Content Include="Icons\Go.png" />
+    <Content Include="Icons\Last.png" />
+    <Content Include="Icons\Music.png" />
+    <Content Include="Icons\Options.png" />
+    <Content Include="Icons\Radioactive.png" />
+    <Content Include="Icons\Remove.png" />
+    <Content Include="Icons\Stop button.png" />
+    <Content Include="Icons\Turn off.png" />
+    <Content Include="Images\Minus.png" />
+    <Content Include="Images\music.svg" />
+    <Content Include="Images\Ok.png" />
+    <Content Include="Images\Player Eject.png" />
+    <Content Include="Images\Player Next.png" />
+    <Content Include="Images\Player Pause.png" />
+    <Content Include="Images\Player Play.png" />
+    <Content Include="Images\Plus.png" />
+    <Content Include="pythonlogo.png" />
+    <Content Include="UI\compile.bat" />
+    <Content Include="UI\CuteMpdMainWindow.ui" />
+    <Content Include="UI\MainWindow.ui" />
+    <Content Include="UI\resources.qrc" />
+    <Content Include="UI\SelectPlayListDialog.ui" />
+    <Content Include="UI\Settings.ui" />
+    <Content Include="UI\SongDetails.ui" />
+    <Content Include="UI\Stylesheet.qss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Models\" />
+    <Folder Include="Icons\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Viewmodels\" />
+    <Folder Include="Views\" />
+    <Folder Include="UI\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

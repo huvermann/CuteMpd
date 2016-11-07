@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'MainWindow.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.resize(480, 320)
+        self.centralwidget = QtGui.QWidget(MainWindow)
+        self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
+        self.layoutWidget = QtGui.QWidget(self.centralwidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(-5, -2, 481, 321))
+        self.layoutWidget.setObjectName(_fromUtf8("layoutWidget"))
+        self.verticalLayout = QtGui.QVBoxLayout(self.layoutWidget)
+        self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        self.horizontalLayout = QtGui.QHBoxLayout()
+        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
+        self.btnAlben = QtGui.QPushButton(self.layoutWidget)
+        self.btnAlben.setText(_fromUtf8(""))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Music")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnAlben.setIcon(icon)
+        self.btnAlben.setIconSize(QtCore.QSize(48, 48))
+        self.btnAlben.setObjectName(_fromUtf8("btnAlben"))
+        self.horizontalLayout.addWidget(self.btnAlben)
+        self.btnRadio = QtGui.QPushButton(self.layoutWidget)
+        self.btnRadio.setText(_fromUtf8(""))
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Radioactive")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnRadio.setIcon(icon1)
+        self.btnRadio.setIconSize(QtCore.QSize(48, 48))
+        self.btnRadio.setObjectName(_fromUtf8("btnRadio"))
+        self.horizontalLayout.addWidget(self.btnRadio)
+        self.btnSettings = QtGui.QPushButton(self.layoutWidget)
+        self.btnSettings.setText(_fromUtf8(""))
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Options")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnSettings.setIcon(icon2)
+        self.btnSettings.setIconSize(QtCore.QSize(48, 48))
+        self.btnSettings.setObjectName(_fromUtf8("btnSettings"))
+        self.horizontalLayout.addWidget(self.btnSettings)
+        self.btnSwitchOff = QtGui.QPushButton(self.layoutWidget)
+        self.btnSwitchOff.setText(_fromUtf8(""))
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Turn off")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnSwitchOff.setIcon(icon3)
+        self.btnSwitchOff.setIconSize(QtCore.QSize(48, 48))
+        self.btnSwitchOff.setObjectName(_fromUtf8("btnSwitchOff"))
+        self.horizontalLayout.addWidget(self.btnSwitchOff)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.textBrowser = QtGui.QTextBrowser(self.layoutWidget)
+        self.textBrowser.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.textBrowser.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
+        self.verticalLayout.addWidget(self.textBrowser)
+        self.horizontalLayout_2 = QtGui.QHBoxLayout()
+        self.horizontalLayout_2.setSizeConstraint(QtGui.QLayout.SetFixedSize)
+        self.horizontalLayout_2.setSpacing(2)
+        self.horizontalLayout_2.setObjectName(_fromUtf8("horizontalLayout_2"))
+        self.btnPrev = QtGui.QPushButton(self.layoutWidget)
+        self.btnPrev.setMaximumSize(QtCore.QSize(60, 16777215))
+        self.btnPrev.setText(_fromUtf8(""))
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Backward")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnPrev.setIcon(icon4)
+        self.btnPrev.setIconSize(QtCore.QSize(48, 48))
+        self.btnPrev.setObjectName(_fromUtf8("btnPrev"))
+        self.horizontalLayout_2.addWidget(self.btnPrev)
+        self.btnPlay = QtGui.QPushButton(self.layoutWidget)
+        self.btnPlay.setMaximumSize(QtCore.QSize(60, 16777215))
+        self.btnPlay.setText(_fromUtf8(""))
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Go")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnPlay.setIcon(icon5)
+        self.btnPlay.setIconSize(QtCore.QSize(48, 48))
+        self.btnPlay.setObjectName(_fromUtf8("btnPlay"))
+        self.horizontalLayout_2.addWidget(self.btnPlay)
+        self.btnStop = QtGui.QPushButton(self.layoutWidget)
+        self.btnStop.setMaximumSize(QtCore.QSize(60, 16777215))
+        self.btnStop.setText(_fromUtf8(""))
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Stop button")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnStop.setIcon(icon6)
+        self.btnStop.setIconSize(QtCore.QSize(48, 48))
+        self.btnStop.setObjectName(_fromUtf8("btnStop"))
+        self.horizontalLayout_2.addWidget(self.btnStop)
+        self.btnNext = QtGui.QPushButton(self.layoutWidget)
+        self.btnNext.setMaximumSize(QtCore.QSize(60, 16777215))
+        self.btnNext.setText(_fromUtf8(""))
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap(_fromUtf8(":/icons/Forward")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btnNext.setIcon(icon7)
+        self.btnNext.setIconSize(QtCore.QSize(48, 48))
+        self.btnNext.setObjectName(_fromUtf8("btnNext"))
+        self.horizontalLayout_2.addWidget(self.btnNext)
+        self.btnVolPlus = QtGui.QPushButton(self.layoutWidget)
+        self.btnVolPlus.setMaximumSize(QtCore.QSize(60, 60))
+        self.btnVolPlus.setObjectName(_fromUtf8("btnVolPlus"))
+        self.horizontalLayout_2.addWidget(self.btnVolPlus)
+        self.lcdNumber = QtGui.QLCDNumber(self.layoutWidget)
+        self.lcdNumber.setMaximumSize(QtCore.QSize(60, 60))
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(170, 255, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(170, 255, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(170, 255, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Light, brush)
+        self.lcdNumber.setPalette(palette)
+        self.lcdNumber.setObjectName(_fromUtf8("lcdNumber"))
+        self.horizontalLayout_2.addWidget(self.lcdNumber)
+        self.btnVolMinus = QtGui.QPushButton(self.layoutWidget)
+        self.btnVolMinus.setMaximumSize(QtCore.QSize(60, 60))
+        self.btnVolMinus.setObjectName(_fromUtf8("btnVolMinus"))
+        self.horizontalLayout_2.addWidget(self.btnVolMinus)
+        self.verticalLayout.addLayout(self.horizontalLayout_2)
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
+        self.btnVolPlus.setText(_translate("MainWindow", "VOL+", None))
+        self.btnVolMinus.setText(_translate("MainWindow", "VOL-", None))
+
+import resources_rc

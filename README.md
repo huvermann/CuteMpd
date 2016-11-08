@@ -11,6 +11,10 @@ Select a playlist (artist, album or radio station)
 
 ![Select Playlist](CuteMpd/Screenshots/select_playlist.png)
 
+A word to german users:
+Ja, mit der Software kann man nur Schlager abspielen. ;-)
+
+
 ## Dependencies:
 * Python 3.4
   * Qt4
@@ -18,11 +22,20 @@ Select a playlist (artist, album or radio station)
 * MPC (Music Player Client)
 
 ## Install MPD on Raspberry Pi
+```sh
 $> sudo apt-get update
 $> sudo apt-get install mpd mpc alsa-utils
+```
 
 ## Install python3 and Qt4
-sudo apt-get install python3-pyqt4
+```sh
+$> sudo apt-get install python3-pyqt4
+```
+
+## Start CuteMpd
+```sh
+$> python3 CuteMpd.py
+```
 
 
 

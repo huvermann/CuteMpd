@@ -103,6 +103,9 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\README.md">
+      <Link>README.md</Link>
+    </Content>
     <Content Include="cutempdconfig.ini" />
     <Content Include="Icons\Add.png" />
     <Content Include="Icons\Back-button.png" />
@@ -128,6 +131,8 @@
     <Content Include="Images\Player Play.png" />
     <Content Include="Images\Plus.png" />
     <Content Include="pythonlogo.png" />
+    <Content Include="Screenshots\mainview.png" />
+    <Content Include="Screenshots\select_playlist.png" />
     <Content Include="UI\compile.bat" />
     <Content Include="UI\CuteMpdMainWindow.ui" />
     <Content Include="UI\MainWindow.ui" />
@@ -141,6 +146,7 @@
     <Folder Include="Images\" />
     <Folder Include="Models\" />
     <Folder Include="Icons\" />
+    <Folder Include="Screenshots\" />
     <Folder Include="Scripts\" />
     <Folder Include="Utils\" />
     <Folder Include="Viewmodels\" />

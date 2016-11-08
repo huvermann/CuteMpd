@@ -1,6 +1,15 @@
 # CuteMpd
 MPD Client for small screens written in python
 CuteMpd is more or less a UI for the mpc command line tool.
+The software has been made for this raspberry pi based device:
+http://www.thingiverse.com/thing:1612666
+
+
+![Mainview](CuteMpd/Screenshots/mainview.png)
+
+Select a playlist (artist, album or radio station)
+
+![Select Playlist](CuteMpd/Screenshots/select_playlist.png)
 
 ## Dependencies:
 * Python 3.4

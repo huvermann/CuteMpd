@@ -1,4 +1,3 @@
-from mpd import MPDClient
 from PyQt4.QtCore import SIGNAL, Qt, QVariant, pyqtSlot
 from Utils.Observer import Observer, ObserverSignals
 from PyQt4.QtCore import QAbstractTableModel, Qt

@@ -24,12 +24,12 @@ Ja, mit der Software kann man nur Schlager abspielen. ;-)
 ## Install MPD on Raspberry Pi
 ```sh
 $> sudo apt-get update
-$> sudo apt-get install mpd mpc alsa-utils
+$> sudo apt-get install mpd mpc alsa-utils 
 ```
 
-## Install python3 and Qt4
+## Install python3 and Qt4 and Pip3
 ```sh
-$> sudo apt-get install python3-pyqt4
+$> sudo apt-get install python3-pyqt4 python3-pip
 ```
 
 ### Install python-mpd2 package:

@@ -19,7 +19,6 @@ if __name__ == "__main__":
         file.close()
     
     gui = MainWindow()
-    #gui = CuteMpdMainWindow()
     if sys.platform == 'win32':
         gui.show()
     else:

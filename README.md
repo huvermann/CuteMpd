@@ -32,9 +32,20 @@ $> sudo apt-get install mpd mpc alsa-utils
 $> sudo apt-get install python3-pyqt4
 ```
 
+### Install python-mpd2 package:
+```sh
+$> sudo pip3 install python-mpd2
+```
+### Get the CuteMpd source code from git:
+```sh
+$> cd ~
+$> git clone https://github.com/huvermann/CuteMpd.git
+```
+
 ## Start CuteMpd
 ```sh
-$> python3 CuteMpd.py
+$> python3 ~/CuteMpd/CuteMpd/CuteMpd.py
+
 ```
 
 
